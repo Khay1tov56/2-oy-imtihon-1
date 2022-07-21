@@ -1455,9 +1455,14 @@ input:not(:placeholder-shown):not(:focus) {
   background: #000;
   color: fff;
 }
-/* .modal {
+.modal {
+  width: 850px;
+  position: fixed;
+  margin: auto;
+
+  margin-left: auto;
   display: none;
-} */
+}
 .modal-show {
   display: block;
 }
@@ -1465,7 +1470,8 @@ input:not(:placeholder-shown):not(:focus) {
   position: relative;
   z-index: 20;
   width: 850px;
-  margin: 15px auto 0 auto;
+  margin: 15px 30px 95px auto;
+
   padding: 119px 51px 137px 70px;
   background: #ffbd54;
   background-image: url("../images/modal-bgi.svg");
@@ -1712,4 +1718,377 @@ input:not(:placeholder-shown):not(:focus) {
   background-color: #000;
   border: none;
   cursor: pointer;
+}
+.parda {
+  /* max-width: 851px ; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+}
+
+.mini-container {
+  width: 851px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* FAQ PAGE START */
+
+.faq {
+  padding-top: 118px;
+  padding-bottom: 270px;
+
+  background-image: url("/images/yellow-brith.png");
+  background-position: calc(50% + 440px) 825px;
+
+  background-repeat: no-repeat;
+}
+
+.faq__big-box {
+  width: 447px;
+  position: relative;
+  padding-left: 110px;
+}
+.faq__big-box::after {
+  content: "";
+  position: absolute;
+  width: 569px;
+  height: 466px;
+  top: calc(50% - 175px);
+  left: calc(50% + 610px);
+  background-image: url("/images/cat-doctor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq__big-text {
+  margin: 0;
+  margin-bottom: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.faq__mini-text {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #949494;
+}
+.faq__hreft-box {
+  width: 201px;
+  margin-bottom: 63px;
+  background: #78c0de;
+  border-radius: 3px;
+  padding: 15px 38px 14px 39px;
+}
+.faq__hrerf {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.faq__hrerf::before {
+  display: block;
+  content: "";
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  background-image: url(/images/zapis-na-priyom.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq__list {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-left: 110px;
+}
+
+.faq__itms {
+  width: 752px;
+  list-style: none;
+  margin-bottom: 18px;
+  padding: 25px 0 32px 63px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+.faq__itms:nth-child(3) {
+  opacity: 0.8;
+}
+.faq__itms:nth-child(6) {
+  opacity: 0.8;
+}
+
+.faq__svg {
+  stroke: #ffbd54;
+  margin-right: 19px;
+}
+.faq__svg-saot {
+  margin-right: 20px;
+}
+
+.faq__detals .faq__summary .faq__svg {
+  transition: all 0.3s linear;
+}
+.faq__detals[open] .faq__summary .faq__svg {
+  transform: rotate(180deg);
+  transition: all 0.3s linear;
+}
+.faq__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333333;
+}
+.faq__summry-box {
+  width: 540px;
+}
+.faq__mini-text {
+  width: 577px;
+  margin: 0;
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.faq__box-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 54px;
+}
+.faq__more-info {
+  text-decoration: none;
+
+  padding: 10px 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px #495dcf33;
+  border-radius: 5px;
+}
+
+.faq__time-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.faq__time-box::before {
+  content: "";
+  width: 22px;
+  height: 20px;
+  display: block;
+  margin-right: 8px;
+  background-image: url("/images/sariq-panja.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.faq__time-box-twoo::before {
+  background-image: url("/images/kok-panja.svg");
+}
+.faq__time {
+  margin-right: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.faq__blue-hreft {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #78c0de;
+}
+
+/* FAQ END */
+
+/* XIZMATLAR  START */
+
+.xizmat {
+  padding-top: 118px;
+  padding-left: 100px;
+  padding-bottom: 395px;
+
+  background-image: url("/images/lupa.svg");
+  background-size: 935px 330px;
+
+  background-position: calc(50% + 100px) calc(50% + 396px);
+  background-repeat: no-repeat;
+}
+
+.xizmat__big-text-box {
+  width: 447px;
+  position: relative;
+}
+
+.xizmat__big-text-box::before {
+  position: absolute;
+  top: -84px;
+  right: -786px;
+  content: "";
+  display: flex;
+  width: 487px;
+  height: 548px;
+  background-image: url("/images/dog-doktor.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.xizmat__big-text {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.xizmat__mini-text {
+  margin: 0;
+  margin-bottom: 118px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.xizmat__list {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+.xizmat__itms {
+  margin-right: 118px;
+}
+.xizmat__itms::before {
+  content: "";
+  display: flex;
+  width: 76px;
+  height: 71px;
+  margin-bottom: 30px;
+  background-image: url("/images/location-dog.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.xizmat__itms:nth-child(2):before {
+  background-image: url("/images/vip-calendar.svg");
+}
+.xizmat__itms:nth-child(3):before {
+  background-image: url("/images/phone-sms.svg");
+}
+
+.adress__time {
+  width: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.xizmat__tel-box {
+  width: 122px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.xizmat__xreft-tell {
+  margin-bottom: 9px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  text-decoration: none;
+  color: #333333;
+}
+
+.xizmat__xreft-tell:hover {
+  color: #ffbd54;
+}
+.one__tellhreft:hover {
+}
+.xizmat__xreft-tell:active {
+  color: #333333;
+  opacity: 0.6;
+}
+
+.top {
+  padding-bottom: 206px;
+}
+
+.top-text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+
+  color: #333333;
+}
+.top__big-box {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.top__big-box::before {
+  content: "";
+  position: absolute;
+  top: -294px;
+  left: 5px;
+  width: 443px;
+  height: 343px;
+  background-image: url("/images/trjaygan-iti-bolasi.png");
+  background-size: contain;
+
+  background-repeat: no-repeat;
 }
