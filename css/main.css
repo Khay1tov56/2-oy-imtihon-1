@@ -892,7 +892,7 @@ body {
   content: "";
   width: 613px;
   height: 481px;
-  top: calc(50% - 278px);
+  top: calc(50% - 276px);
   right: calc(50% - 679px);
   background-image: url("/images/bud-v-kurse.png");
   background-repeat: no-repeat;
@@ -1177,6 +1177,8 @@ input:not(:placeholder-shown):not(:focus) {
   padding-bottom: 247px;
 }
 .fish__big-box {
+  width: 1360px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1953,11 +1955,9 @@ input:not(:placeholder-shown):not(:focus) {
   padding-top: 118px;
   padding-left: 100px;
   padding-bottom: 395px;
-
   background-image: url("/images/lupa.svg");
   background-size: 935px 330px;
-
-  background-position: calc(50% + 100px) calc(50% + 396px);
+  background-position: calc(50% + 200px) calc(50% + 412px);
   background-repeat: no-repeat;
 }
 
@@ -2051,8 +2051,7 @@ input:not(:placeholder-shown):not(:focus) {
 .xizmat__xreft-tell:hover {
   color: #ffbd54;
 }
-.one__tellhreft:hover {
-}
+
 .xizmat__xreft-tell:active {
   color: #333333;
   opacity: 0.6;
@@ -2074,6 +2073,8 @@ input:not(:placeholder-shown):not(:focus) {
   color: #333333;
 }
 .top__big-box {
+  width: 1360px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   margin-right: auto;
