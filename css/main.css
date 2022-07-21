@@ -1755,7 +1755,7 @@ input:not(:placeholder-shown):not(:focus) {
 .faq__big-box {
   width: 447px;
   position: relative;
-  padding-left: 110px;
+  padding-left: 100px;
 }
 .faq__big-box::after {
   content: "";
@@ -1763,7 +1763,7 @@ input:not(:placeholder-shown):not(:focus) {
   width: 569px;
   height: 466px;
   top: calc(50% - 175px);
-  left: calc(50% + 610px);
+  left: calc(50% + 650px);
   background-image: url("/images/cat-doctor.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -1821,7 +1821,7 @@ input:not(:placeholder-shown):not(:focus) {
   margin: 0;
   padding: 0;
   position: relative;
-  padding-left: 110px;
+  padding-left: 100px;
 }
 
 .faq__itms {
