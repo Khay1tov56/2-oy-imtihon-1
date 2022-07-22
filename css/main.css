@@ -2255,7 +2255,7 @@ input:not(:placeholder-shown):not(:focus) {
 
   color: #949494;
 }
-.anime__hreft {
+.anime__hreft-one {
   display: flex;
   font-weight: 500;
   font-size: 16px;
@@ -2263,7 +2263,7 @@ input:not(:placeholder-shown):not(:focus) {
   color: #333333;
   text-decoration: none;
 }
-.anime__hreft::before {
+.anime__hreft-one::before {
   content: "";
   width: 22px;
   height: 20px;
