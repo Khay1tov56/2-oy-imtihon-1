@@ -414,6 +414,7 @@ body {
   justify-content: center;
   font-family: "Futura PT", "Arial", sans-serif;
   font-style: normal;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -2174,6 +2175,7 @@ input:not(:placeholder-shown):not(:focus) {
   font-weight: 500;
   font-size: 20px;
   line-height: 22px;
+  cursor: pointer;
   color: #333333;
 }
 
