@@ -886,14 +886,16 @@ body {
 }
 .dog__box {
   position: relative;
+  margin-right: auto;
+  margin-left: 280px;
 }
 .dog__box::after {
   position: absolute;
   content: "";
   width: 613px;
   height: 481px;
-  top: calc(50% - 276px);
-  right: calc(50% - 679px);
+  top: calc(50% - 278px);
+  right: calc(50% - 602px);
   background-image: url("/images/bud-v-kurse.png");
   background-repeat: no-repeat;
   background-size: contain;
